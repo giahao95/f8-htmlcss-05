@@ -159,3 +159,198 @@ a {
   margin-left: 28px;
   padding: 12px 28px;
 }
+
+.hero {
+  margin-top: 76px;
+}
+
+.hero-content {
+  width: 46%;
+}
+
+.hero__heading {
+  margin-top: 12px;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.16;
+}
+
+.hero__heading b {
+  color: var(--primary-color);
+}
+
+.hero__desc {
+  margin-top: 20px;
+  font-size: 1.8rem;
+  line-height: 1.66;
+}
+
+.hero__form {
+  position: relative;
+  margin-top: 40px;
+}
+
+.hero__input {
+  padding: 23px 170px 23px 23px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.07);
+  border: none;
+  outline: none;
+  line-height: 1.75;
+}
+
+.hero__btn {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+
+.hero__note {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.71;
+}
+
+.hero__media {
+  padding-left: 102px;
+  position: relative;
+  width: 49%;
+  margin-left: auto;
+}
+
+.hero-card__deposite {
+  padding: 14px 10px;
+  position: absolute;
+  top: 113px;
+  left: 0;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hero-card__deposite p:first-of-type {
+  margin-left: 8px;
+  color: #31456a;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.hero-card__deposite p:last-of-type {
+  margin-left: 19px;
+  color: #4ab5e3;
+  font-size: 1.4rem;
+}
+
+.hero-card__interest {
+  position: absolute;
+  top: 127px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #da6464;
+}
+
+.hero-card__interest span:first-child {
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+.hero-card__secure {
+  padding: 20px 15px;
+  position: absolute;
+  right: 101px;
+  bottom: 64px;
+  gap: 11px;
+  border-radius: 10px;
+  background: #439f90;
+}
+
+.hero-card__secure p:first-child {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.hero-card__secure p:last-child {
+  margin-top: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+/* ===== Works ===== */
+.works {
+  margin-top: 160px;
+}
+
+.works__media {
+  position: relative;
+  background: url("../images/works-bg.svg") center bottom / contain no-repeat;
+}
+
+.works-media__icon {
+  position: absolute;
+  top: 90px;
+  right: 60px;
+}
+
+.works__card {
+  padding: 15px 30px 15px 15px;
+  gap: 10px;
+  position: absolute;
+  right: -95px;
+  bottom: 96px;
+  border-radius: 8px;
+  background: #fffdfa;
+  box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.07);
+}
+
+.works__card p:first-child {
+  color: var(--heading-text-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.works__card p:last-child {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.works__content {
+  width: 40%;
+  margin-left: auto;
+}
+
+.works__heading {
+  margin: 12px 0 70px;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.works__title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.works__title ~ .works__title {
+  margin-top: 30px;
+}
+
+.works__desc {
+  margin-top: 16px;
+  line-height: 1.75;
+}

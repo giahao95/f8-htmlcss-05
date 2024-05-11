@@ -108,13 +108,19 @@
           <nav class="navbar">
             <ul class="navbar__list flex-row">
               <li class="navbar__item">
-                <a href="/" class="navbar__link active" data-text="Home">Home</a>
+                <a href="/" class="navbar__link active" data-text="Home"
+                  >Home</a
+                >
               </li>
               <li class="navbar__item">
-                <a href="#!" class="navbar__link" data-text="Products">Products</a>
+                <a href="#!" class="navbar__link" data-text="Products"
+                  >Products</a
+                >
               </li>
               <li class="navbar__item">
-                <a href="#!" class="navbar__link" data-text="Features">Features</a>
+                <a href="#!" class="navbar__link" data-text="Features"
+                  >Features</a
+                >
               </li>
               <li class="navbar__item">
                 <a href="#!" class="navbar__link" data-text="Blog">Blog</a>
@@ -127,7 +133,110 @@
             <a href="#!" class="btn menu-cta__btn">Sign up</a>
           </div>
         </section>
+
+        <!-- Hero -->
+        <section class="hero flex-row">
+          <div class="hero-content">
+            <p class="subtitle">Digital Smart Wallet</p>
+            <h1 class="hero__heading">Digital <b>Payment</b> For Everyone.</h1>
+            <p class="hero__desc">
+              We bring together eveything that’s required to build websites and
+              apps that accept payments and send payouts globally. We are the
+              best platform.
+            </p>
+            <form action="" method="post" class="hero__form">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address"
+                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                required
+                class="hero__input"
+              />
+              <button class="btn hero__btn">Get Started</button>
+              <p class="hero__note">
+                *We’ll respect the inbox and never share your email.
+              </p>
+            </form>
+          </div>
+
+          <div class="hero__media">
+            <img
+              src="./assets/images/mobile-screen.svg"
+              alt="Digital Payment For Everyone."
+              class="hero__img"
+            />
+            <div class="hero-card__deposite flex-row">
+              <img src="./assets/icons/desposite.svg" alt="" />
+              <p>Deposite</p>
+              <p>$32000</p>
+            </div>
+            <div class="hero-card__interest">
+              <span>0%</span>
+              <span>Interest</span>
+            </div>
+            <div class="hero-card__secure flex-row">
+              <img src="./assets/icons/secure.svg" alt="" />
+              <div>
+                <p>$1.310</p>
+                <p>SECURED FUNDS</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </header>
+
+    <main>
+      <!-- ===== Works ===== -->
+      <section class="works">
+        <div class="container flex-row">
+          <div class="works__media">
+            <img
+              src="./assets/images/works-img.svg"
+              alt=""
+              class="works__img"
+            />
+            <img
+              src="./assets/icons/works-icon.svg"
+              class="works-media__icon"
+              alt=""
+            />
+            <div class="works__card flex-row">
+              <img src="./assets/icons/success-icon.svg" alt="" />
+              <div>
+                <p>Congratulations</p>
+                <p>Your account activated</p>
+              </div>
+            </div>
+          </div>
+
+          <section class="works__content">
+            <p class="subtitle">Digital Smart Wallet</p>
+            <h2 class="works__heading">How It Works</h2>
+            <h3 class="works__title">
+              1. Open a High Interest Checking account
+            </h3>
+            <p class="works__desc">
+              Fund your bank account with a minimum balance of $100. Enroll in 3
+              minutes or less!
+            </p>
+            <h3 class="works__title">
+              2. 10 point-of-sale transactions each Month that are at least $10
+              each.
+            </h3>
+            <p class="works__desc">
+              Be sure to use your rewards checking account as often as possible
+              in order to accue APYI
+            </p>
+            <h3 class="works__title">3. Receive up to 5.50% APY</h3>
+            <p class="works__desc">
+              The APY you earn will be based on your account balance and
+              satisfying the transaction requirement.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

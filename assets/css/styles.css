@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #7264d6;
+  --heading-text-color: #212832;
+  --paragraph-text-color: #696d76;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+p {
+  color: var(--paragraph-text-color);
+}
+
+/* ===== Common ===== */
+.subtitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #696d77;
+  line-height: 1.75;
+}
+
+.subtitle::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 2px;
+  background-color: currentColor;
+}
+
+.text-heading {
+  color: var(--heading-text-color);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.25;
+}

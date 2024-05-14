@@ -94,6 +94,9 @@
       rel="stylesheet"
     />
 
+    <!-- AOS Css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
@@ -103,12 +106,17 @@
       <div class="container">
         <!-- Menu -->
         <section class="header-menu flex-row">
-          <a href="/"><img src="./assets/images/logo.svg" alt="CeloBank" /></a>
+          <a href="/f8-htmlcss-05"
+            ><img src="./assets/images/logo.svg" alt="CeloBank"
+          /></a>
 
           <nav class="navbar">
             <ul class="navbar__list flex-row">
               <li class="navbar__item">
-                <a href="/" class="navbar__link active" data-text="Home"
+                <a
+                  href="/f8-htmlcss-05"
+                  class="navbar__link active"
+                  data-text="Home"
                   >Home</a
                 >
               </li>
@@ -136,7 +144,7 @@
 
         <!-- Hero -->
         <section class="hero flex-row">
-          <div class="hero-content">
+          <div class="hero-content" data-aos="fade-right" data-aos-delay="200">
             <p class="subtitle">Digital Smart Wallet</p>
             <h1 class="hero__heading">Digital <b>Payment</b> For Everyone.</h1>
             <p class="hero__desc">
@@ -160,7 +168,7 @@
             </form>
           </div>
 
-          <div class="hero__media">
+          <div class="hero__media" data-aos="fade-left" data-aos-delay="300">
             <img
               src="./assets/images/mobile-screen.svg"
               alt="Digital Payment For Everyone."
@@ -196,13 +204,21 @@
               src="./assets/images/works-img.svg"
               alt=""
               class="works__img"
+              data-aos="zoom-in"
+              data-aos-delay="300"
             />
             <img
               src="./assets/icons/works-icon.svg"
               class="works-media__icon"
               alt=""
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
             />
-            <div class="works__card flex-row">
+            <div
+              class="works__card flex-row"
+              data-aos="zoom-in-up"
+              data-aos-delay="300"
+            >
               <img src="./assets/icons/success-icon.svg" alt="" />
               <div>
                 <p>Congratulations</p>
@@ -242,7 +258,11 @@
       <section class="feature">
         <div class="container">
           <section class="feature-top flex-row">
-            <section class="feature__content">
+            <section
+              class="feature__content"
+              data-aos="zoom-in-down"
+              data-aos-delay="300"
+            >
               <p class="subtitle">Digital Smart Wallet</p>
               <h2 class="feature__heading">One Card For All Your Payments</h2>
               <p class="feature__desc">
@@ -258,7 +278,11 @@
               <a href="#!" class="btn">Get Started</a>
             </section>
 
-            <section class="feature__media">
+            <section
+              class="feature__media"
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+            >
               <img
                 src="./assets/images/feature-card.svg"
                 alt=""
@@ -291,6 +315,8 @@
                 src="./assets/images/feature-bottom.svg"
                 alt=""
                 class="feature__img"
+                data-aos="zoom-in-down"
+                data-aos-delay="300"
               />
 
               <div class="feature-card__payment">
@@ -331,7 +357,11 @@
               </svg>
             </section>
 
-            <section class="feature__content">
+            <section
+              class="feature__content"
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+            >
               <p class="subtitle">Digital Smart Wallet</p>
               <h2 class="feature__heading">
                 Transfer and Deposite Your Money Anytime
@@ -363,7 +393,11 @@
           </p>
 
           <div class="feedback__list flex-row">
-            <section class="feedback__item">
+            <section
+              class="feedback__item"
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <blockquote class="feedback__blockquote">
                 Fantastic platform for online banking. The best online banking
                 platform I have used. Payments, loans, and money transfers have
@@ -379,7 +413,11 @@
               <p class="feedback__career">Businessmen</p>
             </section>
 
-            <section class="feedback__item">
+            <section
+              class="feedback__item"
+              data-aos="flip-left"
+              data-aos-delay="300"
+            >
               <blockquote class="feedback__blockquote">
                 Fantastic platform for online banking. The best online banking
                 platform I have used. Payments, loans, and money transfers have
@@ -421,7 +459,7 @@
             </div>
           </div>
 
-          <div class="blog__list">
+          <div class="blog__list" data-aos="fade-up-left" data-aos-delay="300">
             <section class="blog__item flex-row">
               <figure>
                 <img
@@ -499,7 +537,11 @@
       </section>
 
       <!-- ===== CTA ===== -->
-      <section class="cta container">
+      <section
+        class="cta container"
+        data-aos="fade-up-right"
+        data-aos-delay="300"
+      >
         <p class="subtitle">Our App</p>
         <h2 class="cta__heading">Download the Apps</h2>
         <p class="cta__desc">
@@ -516,79 +558,90 @@
         <img src="./assets/icons/start.svg" alt="" class="cta__star" />
         <img src="./assets/icons/start.svg" alt="" class="cta__star" />
       </section>
-
-      <!-- ===== Footer ===== -->
-      <footer class="footer">
-        <div class="container">
-          <a href="#!"><img src="./assets/images/logo.svg" alt="" /></a>
-
-          <div class="footer-item">
-            <h3 class="footer-item__title">Sitemap</h3>
-            <ul class="footer-item__list">
-              <li>
-                <a href="#!" class="footer-item__link">Home</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Abouts</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Growers</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Merchants</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Contact</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-item">
-            <h3 class="footer-item__title">Socials</h3>
-            <ul class="footer-item__list">
-              <li>
-                <a href="#!" class="footer-item__link">Facebook</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Linkedin</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Instagram</a>
-              </li>
-              <li>
-                <a href="#!" class="footer-item__link">Twitter</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer-item">
-            <h3 class="footer-item__title">Head Office</h3>
-            <p class="footer-item__address">
-              Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22,
-              Charlottesville, CA 45565
-            </p>
-            <h3 class="footer-item__title">News letter</h3>
-            <form action="" method="post" class="footer__form flex-row">
-              <input
-                type="email"
-                name="email"
-                placeholder="Email address..."
-                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-                class="footer__input"
-                required
-              />
-              <button class="footer__btn btn">Subscribe</button>
-            </form>
-          </div>
-
-          <a href="mailto:email@gmail.com" class="footer__email"
-            >email@gmail.com</a
-          >
-
-          <a href="tel:1234567890" class="footer__tel">(123) 456-7890</a>
-        </div>
-        <p class="footer__copyright">&copy; 2020 Ligft Media All rights reserved.</p>
-      </footer>
     </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container">
+        <a href="/f8-htmlcss-05"
+          ><img src="./assets/images/logo.svg" alt=""
+        /></a>
+
+        <div class="footer-item">
+          <h3 class="footer-item__title">Sitemap</h3>
+          <ul class="footer-item__list">
+            <li>
+              <a href="#!" class="footer-item__link">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Abouts</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Growers</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Merchants</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h3 class="footer-item__title">Socials</h3>
+          <ul class="footer-item__list">
+            <li>
+              <a href="#!" class="footer-item__link">Facebook</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Linkedin</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Instagram</a>
+            </li>
+            <li>
+              <a href="#!" class="footer-item__link">Twitter</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-item">
+          <h3 class="footer-item__title">Head Office</h3>
+          <p class="footer-item__address">
+            Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22,
+            Charlottesville, CA 45565
+          </p>
+          <h3 class="footer-item__title">News letter</h3>
+          <form action="" method="post" class="footer__form flex-row">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address..."
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              class="footer__input"
+              required
+            />
+            <button class="footer__btn btn">Subscribe</button>
+          </form>
+        </div>
+
+        <a href="mailto:email@gmail.com" class="footer__email"
+          >email@gmail.com</a
+        >
+
+        <a href="tel:1234567890" class="footer__tel">(123) 456-7890</a>
+      </div>
+      <p class="footer__copyright">
+        &copy; 2020 Ligft Media All rights reserved.
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
   </body>
 </html>

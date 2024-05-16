@@ -76,6 +76,7 @@ a {
   border-radius: 8px;
   background-color: var(--heading-text-color);
   line-height: 1.75;
+  cursor: pointer;
   transition: scale 0.3s, background-color 0.3s;
 }
 
@@ -739,6 +740,11 @@ a {
   display: inline-block;
   margin-top: 20px;
   color: var(--paragraph-text-color);
+  transition: color 0.3s;
+}
+
+.blog__item:hover .blog__link {
+  color: var(--primary-color);
 }
 
 /* ===== CTA ===== */
